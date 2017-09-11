@@ -283,7 +283,8 @@ figure(1)
 quiver(uFem.point(1, :), uFem.point(2, :), u1_fe', u2_fe', ...
 'Color', [1, 0, 0])
 xlabel('x'), ylabel('y'), title('velocity field'), grid on
-axis equal; figure(2)
+axis equal; 
+%figure(2)
 % plot the pressure function
 %x = pFem.point(1,:); y = pFem.point(2,:); z = p_fe;
 %scatter3(x,y,z,100,z,'.')
